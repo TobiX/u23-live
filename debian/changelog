@@ -1,0 +1,5 @@
+config-xfce-desktop (7.0~a1) unstable; urgency=low
+
+  * Initial release, built with live-build version 3.0~a60-1.
+
+ -- Daniel Baumann <daniel@debian.org>  Sat, 29 Sep 2012 14:51:53 +0200
