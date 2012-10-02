@@ -1,3 +1,11 @@
+config-xfce-desktop (7.0~a2) unstable; urgency=low
+
+  * Building with live-build version 3.0~a63-1.
+  * Updating wording in README.source.
+  * Adding plymouth manually to desktop package list.
+
+ -- Daniel Baumann <daniel@debian.org>  Tue, 02 Oct 2012 10:59:07 +0200
+
 config-xfce-desktop (7.0~a1) unstable; urgency=low
 
   * Initial release, built with live-build version 3.0~a60-1.
