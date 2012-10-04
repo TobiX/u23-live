@@ -2,4 +2,4 @@
 
 set -e
 
-lb config noauto --clean --mode debian --ignore-system-defaults --compression none "${@}"
+lb config noauto --clean --mode debian --ignore-system-defaults "${@}"
