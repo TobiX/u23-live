@@ -2,4 +2,6 @@
 
 set -e
 
-lb config noauto --clean --mode debian --ignore-system-defaults "${@}"
+lb config noauto --clean --mode debian --ignore-system-defaults \
+	--architectures i386 \
+	"${@}"
