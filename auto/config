@@ -4,4 +4,5 @@ set -e
 
 lb config noauto --clean --mode debian --ignore-system-defaults \
 	--architectures i386 \
+	--bootappend-live "boot=live config quiet splash locales=en_US.UTF-8,de_DE.UTF-8 keyboard-layouts=de keyboard-variants=nodeadkeys persistence" \
 	"${@}"
