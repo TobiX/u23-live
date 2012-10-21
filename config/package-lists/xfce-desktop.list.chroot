@@ -1,8 +1,8 @@
 # Split task-xfce-desktop into its components and mix&match:
 
 ## task-xfce-desktop depends:
-#tasksel task-desktop lightdm
-xfce4
+#tasksel task-desktop
+xfce4 lightdm
 
 ## task-xfce-desktop recommends:
 # xfprint4 libreoffice-gtk dbus-x11 xsane vlc quodlibet tango-icon-theme
