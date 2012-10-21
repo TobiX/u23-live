@@ -1,0 +1,6 @@
+git tig gitk git-gui
+vim-gtk
+
+geany-plugin-addons geany-plugin-codenav geany-plugin-debugger
+geany-plugin-extrasel geany-plugin-gdb geany-plugin-vc geany-plugin-treebrowser
+
