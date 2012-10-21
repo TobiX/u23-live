@@ -1,9 +1,11 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: Debian Xfce Desktop
-Upstream-Contact: debian-live@lists.debian.org
+Upstream-Name: CCCC U23 2012 Xfce Desktop
+Upstream-Contact: tobias@koeln.ccc.de
 
 Files: *
-Copyright: (C) 2006-2012 Daniel Baumann <daniel@debian.org>
+Copyright: (C) 2012 Tobias Gruetzmacher <tobias@koeln.ccc.de>
+           Based on the "Debian Xfce Desktop" LiveCD template, which is:
+           (C) 2006-2012 Daniel Baumann <daniel@debian.org>
 License: GPL-3+
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
