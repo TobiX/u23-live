@@ -5,9 +5,9 @@ set -e
 lb config noauto --clean --mode debian --ignore-system-defaults \
 	--architectures i386 \
 	--bootappend-live "boot=live config quiet splash locales=en_US.UTF-8,de_DE.UTF-8 keyboard-layouts=de keyboard-variants=nodeadkeys persistence" \
-	--mirror-bootstrap        http://mirror.netcologne.de/debian/ \
-	--mirror-chroot-security  http://mirror.netcologne.de/debian-security/ \
-	--mirror-chroot-backports http://mirror.netcologne.de/debian-backports/ \
+	--mirror-bootstrap        http://nibbler/debian/ \
+	--mirror-chroot-security  http://nibbler/debian-security/ \
+	--mirror-chroot-backports http://nibbler/debian-backports/ \
 	"${@}"
 
 # mirror-bootstrap also sets mirror-chroot
