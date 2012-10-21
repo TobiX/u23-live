@@ -1,4 +1,25 @@
-task-xfce-desktop
+# Split task-xfce-desktop into its components and mix&match:
+
+## task-xfce-desktop depends:
+#tasksel task-desktop lightdm
+xfce4
+
+## task-xfce-desktop recommends:
+# xfprint4 libreoffice-gtk dbus-x11 xsane vlc quodlibet tango-icon-theme
+# synaptic libreoffice libreoffice-gcj libreoffice-help-en-us mythes-en-us
+# hunspell-en-us hyphen-en-us system-config-printer gstreamer0.10-alsa
+xfce4-goodies xfce4-power-manager xfce4-mixer xfce4-terminal mousepad orage
+epdfview network-manager-gnome iceweasel
+
+## task-desktop depends
+#tasksel
+xorg xserver-xorg-video-all xserver-xorg-input-all desktop-base menu
+
+## task-desktop recommends
+# task-gnome-desktop | task-kde-desktop | task-lxde-desktop | task-xfce-desktop
+# xdg-utils avahi-daemon libnss-mdns anacron libgl1-mesa-dri eject alsa-utils
+# alsa-base pm-utils
+
 task-laptop
 
 plymouth plymouth-drm
