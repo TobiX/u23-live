@@ -3,6 +3,7 @@
 set -e
 
 mirror="http.debian.net"
+lang="locales=de_DE.UTF-8,en_US.UTF-8 keyboard-layouts=de keyboard-variants=nodeadkeys"
 
 # Check for local mirror
 if ping -c 1 nibbler > /dev/null 2>&1
@@ -12,8 +13,7 @@ fi
 
 lb config noauto --clean --mode debian --ignore-system-defaults \
 	--architectures i386 \
-	--bootappend-live "boot=live config quiet splash persistence noprompt
-	locales=de_DE.UTF-8,en_US.UTF-8 keyboard-layouts=de keyboard-variants=nodeadkeys" \
+	--bootappend-live "boot=live config quiet splash persistence noprompt $lang" \
 	--mirror-bootstrap        http://$mirror/debian/ \
 	--mirror-chroot           http://$mirror/debian/ \
 	--mirror-chroot-security  http://$mirror/debian-security/ \
