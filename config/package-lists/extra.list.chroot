@@ -1,0 +1,7 @@
+# Additional programs that don't fit any category
+
+# Useful for setting up persistence
+gparted
+
+# The xfce display settings panel had problems with multiple monitors in my test
+arandr
