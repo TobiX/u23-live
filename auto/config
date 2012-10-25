@@ -15,7 +15,6 @@ lb config noauto --clean --mode debian --ignore-system-defaults \
 	--architectures i386 \
 	--bootappend-live "boot=live config quiet splash persistence noprompt $lang" \
 	--mirror-bootstrap        http://$mirror/debian/ \
-	--mirror-chroot           http://$mirror/debian/ \
 	--mirror-chroot-security  http://$mirror/debian-security/ \
 	--mirror-chroot-backports http://$mirror/debian-backports/ \
 	 "${@}"
